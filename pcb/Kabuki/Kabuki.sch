@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Kabuki-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -122,7 +122,7 @@ F 3 "" H 3850 5600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4400 4800 4400 5050
+	4400 4800 4400 4900
 Wire Wire Line
 	4400 5050 4500 5050
 Wire Wire Line
@@ -410,7 +410,7 @@ $Comp
 L Kabuki:capcer0805 C4
 U 1 1 5E377176
 P 4200 5050
-F 0 "C4" H 4300 5050 50  0000 L CNN
+F 0 "C4" V 4350 5050 50  0000 L CNN
 F 1 "capcer0805" H 4550 4950 50  0001 C CNN
 F 2 "Kabuki:CAP0805" H 4250 4925 50  0001 C CNN
 F 3 "" H 4350 5025 50  0001 C CNN
@@ -433,4 +433,34 @@ $EndComp
 Wire Wire Line
 	4300 5050 4400 5050
 Connection ~ 4400 5050
+$Comp
+L Kabuki:res0805 R?
+U 1 1 5E3871A4
+P 4200 4900
+F 0 "R?" H 4200 4800 50  0000 L CNN
+F 1 "1k" H 4200 4900 30  0000 L CNN
+F 2 "Kabuki:RES0805" H 4650 4775 50  0001 L CNN
+F 3 "" H 4650 4675 50  0001 L CNN
+F 4 "50 V" H 4650 5025 50  0001 L CNN "Voltage"
+F 5 "1%" H 4650 4875 50  0001 L CNN "Tolerance"
+F 6 "0.1 W" H 4625 4950 50  0001 L CNN "Power"
+	1    4200 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 4900 4400 4900
+Connection ~ 4400 4900
+Wire Wire Line
+	4400 4900 4400 5050
+$Comp
+L Kabuki:GND #PWR?
+U 1 1 5E3901EF
+P 4050 4900
+F 0 "#PWR?" H 4050 4650 50  0001 C CNN
+F 1 "GND" H 4050 4750 50  0001 C CNN
+F 2 "" H 4050 4900 50  0001 C CNN
+F 3 "" H 4050 4900 50  0001 C CNN
+	1    4050 4900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
