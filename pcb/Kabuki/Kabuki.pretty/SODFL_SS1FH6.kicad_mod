@@ -1,4 +1,4 @@
-(module SODFL_SS1FH6 (layer F.Cu) (tedit 5E336FEA)
+(module SODFL_SS1FH6 (layer F.Cu) (tedit 5E34BC2C)
   (descr "Diode, Small Outline Diode Flat Lead (SODFL); 2.80 mm L X 1.80 mm W X 1.08 mm H body")
   (attr smd)
   (fp_text reference REF** (at 0 -2.25) (layer F.SilkS)
@@ -47,4 +47,9 @@
   (fp_line (start -0.7 -0.9) (end -0.7 0.9) (layer F.SilkS) (width 0.12))
   (pad C smd roundrect (at -1.6 0) (size 1.11 1.22) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2252))
   (pad A smd roundrect (at 1.6 0) (size 1.11 1.22) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2252))
+  (model ${KIPRJMOD}/Kabuki.pretty/SODFL_SS1FH6.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

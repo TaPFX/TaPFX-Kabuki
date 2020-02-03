@@ -1,4 +1,4 @@
-(module NC3MAHR (layer F.Cu) (tedit 5E33E47A)
+(module NC3MAHR (layer F.Cu) (tedit 5E34BE02)
   (fp_text reference REF** (at -0.7 -5.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,4 +14,9 @@
   (pad 3 thru_hole circle (at 3.81 17.78) (size 2.5 2.5) (drill 1.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 12.7) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 7) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/Kabuki.pretty/d-nc3mahr.stp
+    (offset (xyz 0 0 11))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 -90))
+  )
 )

@@ -1,4 +1,4 @@
-(module SOIC8P127_IX44XX (layer F.Cu) (tedit 5E336FAD)
+(module SOIC8P127_IX44XX (layer F.Cu) (tedit 5E34BC63)
   (descr "Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.75 mm H body")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
@@ -76,4 +76,9 @@
   (pad 6 smd roundrect (at 0.635 -2.425 90) (size 2.07 0.66) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2576))
   (pad 7 smd roundrect (at -0.635 -2.425 90) (size 2.07 0.66) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2576))
   (pad 8 smd roundrect (at -1.905 -2.425 90) (size 2.07 0.66) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2576))
+  (model ${KIPRJMOD}/Kabuki.pretty/SOIC8P127_IX44XX.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
