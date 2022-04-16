@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Kabuki)(type Legacy)(uri D:/Projects/99_Privat/tap/TaPFX-Kabuki2/pcb/Kabuki/Kabuki.lib)(options "")(descr ""))
+  (lib (name tapbuki-controll-rescue)(type Legacy)(uri ${KIPRJMOD}/tapbuki-controll-rescue.lib)(options "")(descr ""))
+)
